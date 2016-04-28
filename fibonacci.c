@@ -3,7 +3,7 @@
 int main()
 {
     int numb, numb1=0, numb2=1, i;
-    printf("sequencia de fibonacci");
+    printf("sequencia de fibonacci\n");
     for(i=0;i<=20;i++)
     {
       numb=numb1+numb2;
