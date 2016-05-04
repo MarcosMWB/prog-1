@@ -35,7 +35,7 @@ int main()
         printf("\n%f", total);
         break;
         case 4:
-        total=numb/numb2;
+        total=(float)numb/numb2;
         printf("\na resposta é:%f", total);
         break;
         }
