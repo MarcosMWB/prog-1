@@ -9,11 +9,11 @@ int main()
         float nota;
     };
 
-    struct ordem aluno[10];
+    struct ordem aluno[30];
     struct ordem nota2;
     int i, j;
     
-    for(i=0;i<10;i++)
+    for(i=0;i<30;i++)
     {
         printf("nome do aluno %d:", i+1);
         scanf("%s", aluno[i].nome);
@@ -26,9 +26,9 @@ int main()
         }while(aluno[i].nota>10||aluno[i].nota<0);
     }
     
-    for(i=0;i<10;i++)
+    for(i=0;i<30;i++)
     {
-        for(j=i;j<10;j++)
+        for(j=i;j<30;j++)
         {
             if(aluno[i].nota<aluno[j].nota)
             {
@@ -41,7 +41,7 @@ int main()
     printf("Listagem da AV1\n");
     printf("---------------------------------------------------\n");
     printf("Nome:\t \t \tNota:\n");
-    for(i=0;i<10;i++)
+    for(i=0;i<30;i++)
     {
         printf("%s\t \t \t%.2f\n", aluno[i].nome, aluno[i].nota);
     }
