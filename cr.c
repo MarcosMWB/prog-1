@@ -7,9 +7,9 @@ int main()
     
     do{
         i++;
-        printf("qual a nota materia %d? ", i+1);
+        printf("qual a nota materia %d? ", i);
         scanf("%f", &nota[i]);
-        printf("qual a carga horaria desta materia %d? ", i+1);
+        printf("qual a carga horaria desta materia %d? ", i);
         scanf("%f", &hora[i]);
         printf("deseja continuar? 0-false 1-true: ");
         scanf("%d", &sn);
